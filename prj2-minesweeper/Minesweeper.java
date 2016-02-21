@@ -633,31 +633,6 @@ public class Minesweeper extends JFrame implements MouseListener, ActionListener
    addNewScore = false;
    
  }
- 
- /*
- private void readScores()
- {
-   try
-   {
-     BufferedReader reader = new BufferedReader(new FileReader("scores.txt"));
-     String line;
-     int i = 0;
-     while ((line = reader.readLine()) != null)
-     {
-       
-     }
-     reader.close();
-   }
-   catch (Exception e)
-  {
-    for (int i = 0; i < 10; i++){
-      names[i] = "__________: ";
-      scores[i] = 999;
-    }
-  }
- }
- */
-
  /*
   * Main method to start the game
   */
