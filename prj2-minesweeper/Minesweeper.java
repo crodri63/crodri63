@@ -154,7 +154,7 @@ public class Minesweeper extends JFrame implements MouseListener, ActionListener
 
   field = new JPanel( new GridLayout( rows, columns, 1, 1 ) );
   
-  // double loop that crates a minefield made of buttons of tile
+  // two loop that create a minefield made  of tile
   for( int i = 0 ;  i < rows ; i++ )
    for( int j = 0 ;  j < columns ; j++)
    {
@@ -287,8 +287,8 @@ public class Minesweeper extends JFrame implements MouseListener, ActionListener
    //Alt + R = Reset Scores hotkey
    resetScore = new JMenuItem("Reset Scores", KeyEvent.VK_R);
    resetScore.addActionListener( this );
-   resetScore.setMnemonic(KeyEvent.VK_S);
-   resetScore.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, ActionEvent.ALT_MASK));
+   resetScore.setMnemonic(KeyEvent.VK_R);
+   resetScore.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.ALT_MASK));
    
    menugame.add( newGameitem );
    menugame.add( quitItem); 
@@ -296,7 +296,7 @@ public class Minesweeper extends JFrame implements MouseListener, ActionListener
    menugame.add( resetScore );
 
   JMenu menuHelp = new JMenu( "Help" );
-  //Alt + I = Instructions hotkey
+  //Alt + L = Instructions hotkey
    itemHelp = new JMenuItem( "Instructions", KeyEvent.VK_L );
    itemHelp.addActionListener( this );
    itemHelp.setMnemonic(KeyEvent.VK_L);
