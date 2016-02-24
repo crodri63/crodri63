@@ -1,7 +1,8 @@
 /*
  *project: Minesweeper
  * name:
- * progammmer:Constantino Rodriguez
+ * progammmer:
+ *Constantino Rodriguez
  * Nerijus Gelezinis
  * Giovanni Valencia
  * 
