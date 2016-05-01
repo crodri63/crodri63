@@ -37,4 +37,6 @@ break;
 
 Observer
 
-Inside of sideBar.java, we used update_score(int lines_cleared) to update scores,  reduce the number of current_goal and get the nextTetromino to be displayed on the sidebar. This method is called automatically when a row is cleared in the Board class, namely the checkRows() method.
+Inside of sideBar.java, we used update_score(int lines_cleared) to update scores,  
+reduce the number of current_goal and get the nextTetromino to be displayed on the sidebar. 
+This method is called automatically when a row is cleared in the Board class, namely the checkRows() method.
